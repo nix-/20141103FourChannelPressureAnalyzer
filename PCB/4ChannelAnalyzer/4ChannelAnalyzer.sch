@@ -5520,6 +5520,85 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="LM1117MP-3.3">
+<packages>
+<package name="SOT230P696X180-4N">
+<smd name="1" x="-3.2004" y="2.3114" dx="1.6002" dy="0.8382" layer="1"/>
+<smd name="2" x="-3.2004" y="0" dx="1.6002" dy="0.8382" layer="1"/>
+<smd name="3" x="-3.2004" y="-2.3114" dx="1.6002" dy="0.8382" layer="1"/>
+<smd name="4" x="3.2004" y="0" dx="1.6002" dy="3.0988" layer="1"/>
+<wire x1="-1.8542" y1="1.905" x2="-1.8542" y2="2.6924" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="2.6924" x2="-3.6576" y2="2.6924" width="0.1524" layer="51"/>
+<wire x1="-3.6576" y1="2.6924" x2="-3.6576" y2="1.905" width="0.1524" layer="51"/>
+<wire x1="-3.6576" y1="1.905" x2="-1.8542" y2="1.905" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="-0.4064" x2="-1.8542" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="0.4064" x2="-3.6576" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="-3.6576" y1="0.4064" x2="-3.6576" y2="-0.4064" width="0.1524" layer="51"/>
+<wire x1="-3.6576" y1="-0.4064" x2="-1.8542" y2="-0.4064" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="-2.6924" x2="-1.8542" y2="-1.905" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="-1.905" x2="-3.6576" y2="-1.905" width="0.1524" layer="51"/>
+<wire x1="-3.6576" y1="-1.905" x2="-3.6576" y2="-2.6924" width="0.1524" layer="51"/>
+<wire x1="-3.6576" y1="-2.6924" x2="-1.8542" y2="-2.6924" width="0.1524" layer="51"/>
+<wire x1="1.8542" y1="1.5494" x2="1.8542" y2="-1.5494" width="0.1524" layer="51"/>
+<wire x1="1.8542" y1="-1.5494" x2="3.6576" y2="-1.5494" width="0.1524" layer="51"/>
+<wire x1="3.6576" y1="-1.5494" x2="3.6576" y2="1.5494" width="0.1524" layer="51"/>
+<wire x1="3.6576" y1="1.5494" x2="1.8542" y2="1.5494" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="-3.3528" x2="1.8542" y2="-3.3528" width="0.1524" layer="51"/>
+<wire x1="1.8542" y1="-3.3528" x2="1.8542" y2="3.3528" width="0.1524" layer="51"/>
+<wire x1="1.8542" y1="3.3528" x2="-1.8542" y2="3.3528" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="3.3528" x2="-1.8542" y2="-3.3528" width="0.1524" layer="51"/>
+<text x="-4.0132" y="2.3368" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<wire x1="-1.8542" y1="-3.3528" x2="1.8542" y2="-3.3528" width="0.1524" layer="21"/>
+<wire x1="1.8542" y1="-3.3528" x2="1.8542" y2="3.3528" width="0.1524" layer="21"/>
+<wire x1="1.8542" y1="3.3528" x2="-1.8542" y2="3.3528" width="0.1524" layer="21"/>
+<wire x1="-1.8542" y1="3.3528" x2="-1.8542" y2="-3.3528" width="0.1524" layer="21"/>
+<text x="-4.0132" y="2.3368" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-4.8514" y="4.0386" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.6134" y="-5.7912" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="LM1117MP-3.3">
+<pin name="IN" x="-17.78" y="0" length="middle" direction="in"/>
+<pin name="ADJ/GND" x="-17.78" y="-5.08" length="middle" direction="pas"/>
+<pin name="VOUT" x="17.78" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="OUT" x="17.78" y="-2.54" length="middle" direction="out" rot="R180"/>
+<wire x1="-12.7" y1="5.08" x2="-12.7" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="12.7" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="12.7" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="-12.7" y2="5.08" width="0.4064" layer="94"/>
+<text x="-5.461" y="6.096" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-4.3688" y="-12.7254" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LM1117MP-3.3" prefix="U">
+<description>Linear regulators</description>
+<gates>
+<gate name="A" symbol="LM1117MP-3.3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT230P696X180-4N">
+<connects>
+<connect gate="A" pin="ADJ/GND" pad="1"/>
+<connect gate="A" pin="IN" pad="3"/>
+<connect gate="A" pin="OUT" pad="2"/>
+<connect gate="A" pin="VOUT" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="LM1117MP-3.3" constant="no"/>
+<attribute name="OC_FARNELL" value="9778195" constant="no"/>
+<attribute name="OC_NEWARK" value="41K3470" constant="no"/>
+<attribute name="PACKAGE" value="SOT223-3" constant="no"/>
+<attribute name="SUPPLIER" value="NationalSemiconductor" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5553,6 +5632,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="U1" library="ADS1015" deviceset="ADS1015IDGST" device=""/>
 <part name="X1" library="con-wago255" deviceset="233-108" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
+<part name="U3" library="LM1117MP-3.3" deviceset="LM1117MP-3.3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5560,10 +5640,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="LPC1" gate="G$1" x="165.1" y="127"/>
+<instance part="LPC1" gate="G$1" x="180.34" y="121.92"/>
 <instance part="U2" gate="A" x="71.12" y="53.34"/>
 <instance part="X2" gate="G$1" x="22.86" y="45.72" rot="MR0"/>
-<instance part="X3" gate="G$1" x="233.68" y="134.62"/>
+<instance part="X3" gate="G$1" x="233.68" y="149.86"/>
 <instance part="LED1" gate="G$1" x="111.76" y="22.86"/>
 <instance part="LED2" gate="G$1" x="121.92" y="22.86"/>
 <instance part="LED3" gate="G$1" x="132.08" y="22.86"/>
@@ -5577,11 +5657,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="R5" gate="G$1" x="142.24" y="33.02" rot="R90"/>
 <instance part="R6" gate="G$1" x="152.4" y="33.02" rot="R90"/>
 <instance part="GND1" gate="1" x="152.4" y="12.7"/>
-<instance part="P+1" gate="VCC" x="210.82" y="170.18"/>
+<instance part="P+1" gate="VCC" x="220.98" y="167.64"/>
 <instance part="GND2" gate="1" x="35.56" y="30.48"/>
 <instance part="U1" gate="A" x="71.12" y="134.62"/>
 <instance part="X1" gate="G$1" x="22.86" y="127" rot="MR0"/>
 <instance part="GND3" gate="1" x="35.56" y="111.76"/>
+<instance part="U3" gate="A" x="111.76" y="88.9"/>
 </instances>
 <busses>
 </busses>
