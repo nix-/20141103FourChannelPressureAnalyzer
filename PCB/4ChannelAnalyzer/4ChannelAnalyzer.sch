@@ -8223,16 +8223,22 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="U2-ADD-48" gate="A" pin="SCL"/>
 <wire x1="48.26" y1="88.9" x2="48.26" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="104.14" x2="99.06" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="104.14" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
 <label x="91.44" y="104.14" size="1.778" layer="95"/>
+<wire x1="114.3" y1="104.14" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="LPC1" gate="G$1" pin="56"/>
+<wire x1="114.3" y1="71.12" x2="149.86" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDA48" class="0">
 <segment>
 <pinref part="U2-ADD-48" gate="A" pin="SDA"/>
 <wire x1="88.9" y1="96.52" x2="88.9" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="101.6" x2="99.06" y2="101.6" width="0.1524" layer="91"/>
 <label x="91.44" y="101.6" size="1.778" layer="95"/>
+<wire x1="88.9" y1="101.6" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="101.6" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="LPC1" gate="G$1" pin="57"/>
+<wire x1="111.76" y1="68.58" x2="149.86" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
