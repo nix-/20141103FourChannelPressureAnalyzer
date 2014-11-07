@@ -7943,6 +7943,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="10uF"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="10uF"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
+<part name="GND6" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7979,6 +7980,7 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="C1" gate="G$1" x="20.32" y="30.48"/>
 <instance part="C2" gate="G$1" x="73.66" y="30.48"/>
 <instance part="GND5" gate="1" x="27.94" y="17.78"/>
+<instance part="GND6" gate="1" x="139.7" y="152.4"/>
 </instances>
 <busses>
 </busses>
@@ -8065,6 +8067,12 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="20.32" y1="25.4" x2="20.32" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="20.32" x2="27.94" y2="20.32" width="0.1524" layer="91"/>
 <junction x="27.94" y="20.32"/>
+</segment>
+<segment>
+<pinref part="LPC1" gate="G$1" pin="1"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="149.86" y1="157.48" x2="139.7" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="157.48" x2="139.7" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
