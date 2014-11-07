@@ -7939,7 +7939,8 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <text x="8.5" y="0.75" size="1.016" layer="21">NC</text>
 <text x="8.5" y="-2" size="1.016" layer="21">NC</text>
 <text x="8.5" y="-4.5" size="1.016" layer="21">NC</text>
-<text x="-4.25" y="-8.25" size="1.27" layer="21">ACR1000</text>
+<text x="-4.25" y="-8.25" size="1.27" layer="25">&gt;VALUE</text>
+<text x="-3.81" y="7.62" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -7956,7 +7957,8 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <pin name="NC4" x="15.24" y="2.54" length="middle" rot="R180"/>
 <pin name="NC3" x="15.24" y="-2.54" length="middle" rot="R180"/>
 <pin name="NC2" x="15.24" y="-7.62" length="middle" rot="R180"/>
-<text x="0" y="-15.24" size="1.6764" layer="95">ACR1000</text>
+<text x="-3.81" y="-15.24" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-3.81" y="13.97" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
